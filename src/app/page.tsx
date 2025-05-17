@@ -97,7 +97,7 @@ export default function HomePage() {
       </AnimatedSection>
 
       {/* About Section */}
-      <AnimatedSection delay={0.4}>
+      {/* <AnimatedSection delay={0.4}>
         <Section id="about" title="About Me" subtitle="My journey as a developer">
           <div className="mx-auto mt-16 max-w-3xl space-y-6 text-lg">
             <p>
@@ -124,7 +124,7 @@ export default function HomePage() {
             </blockquote>
           </div>
         </Section>
-      </AnimatedSection>
+      </AnimatedSection> */}
 
      
     </>

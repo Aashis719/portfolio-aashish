@@ -36,7 +36,7 @@ export default async function ProjectPage({ params }) {
 
   return (
     <AnimatedSection>
-      <div className="container mx-auto px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+      <div className="container mx-auto px-4 py-16 pt-24 sm:px-6 lg:px-8 lg:py-24">
         <div className="mx-auto max-w-4xl">
           {/* Project Image */}
           <div className="relative mb-8 aspect-video w-full overflow-hidden rounded-xl">
@@ -91,32 +91,19 @@ export default async function ProjectPage({ params }) {
 
           {/* Project Details */}
           <div className="prose prose-lg mx-auto max-w-none dark:prose-invert">
-            <h2>Project Overview</h2>
-            <p>
-              This is a detailed explanation of the {project.title} project. In a
-              real portfolio, this would include information about the project
-              goals, challenges, solutions, and outcomes.
-            </p>
+            <h2 className="font-bold text-blue-400 text-xl md:text-2xl ">Project Overview</h2>
+            <p>{project.details.overview}</p>
 
-            <h2>The Challenge</h2>
-            <p>
-              The main challenge of this project was to create a modern,
-              responsive design that works well on all devices while maintaining
-              excellent performance and accessibility.
-            </p>
+            <h2 className="font-bold text-blue-400 mt-4 text-xl md:text-2xl">The Challenge</h2>
+            <div className="whitespace-pre-line">{project.details.challenge}</div>
 
-            <h2>The Solution</h2>
-            <p>
-              I implemented a custom design using Next.js and Tailwind CSS,
-              focusing on performance optimization and a great user experience.
-              The project features a clean, intuitive interface with smooth
-              animations and responsive layouts.
-            </p>
+            <h2 className="font-bold text-blue-400 mt-4 text-xl md:text-2xl">The Solution</h2>
+            <div className="whitespace-pre-line">{project.details.solution}</div>
 
-            <h2>Technical Details</h2>
+            <h2 className="font-bold text-blue-400 mt-4 text-xl md:text-2xl">Technical Details</h2>
             <ul>
-              {project.tags.map((tag) => (
-                <li key={tag}>{tag}</li>
+              {project.details.technicalDetails.map((detail) => (
+                <li key={detail}>{detail}</li>
               ))}
             </ul>
           </div>
