@@ -1,6 +1,4 @@
-import { Project } from "@/components/ProjectCard";
-
-export const projects: Project[] = [
+export const projects = [
   {
     id: "1",
     title: "E-commerce Platform",
@@ -47,7 +45,7 @@ export const projects: Project[] = [
   },
 ];
 
-export function getProjectBySlug(slug: string) {
+export function getProjectBySlug(slug) {
   return projects.find((project) => project.slug === slug);
 }
 
