@@ -16,8 +16,8 @@ export function Header() {
 
   return (
     <header className="fixed top-4 left-1/2 -translate-x-1/2 z-50">
-      <nav className="relative px-3 py-2 sm:px-6 sm:py-3 rounded-full bg-gray-900/30 backdrop-blur-lg border border-gray-200/20 dark:bg-gray-800/70">
-        <div className="flex items-center space-x-3 sm:space-x-6">
+      <nav className="relative px-4 py-3.5 sm:px-6 sm:py-2.5 rounded-full bg-gray-900/30 backdrop-blur-lg border border-gray-200/20 dark:bg-gray-800/70">
+        <div className="flex items-center space-x-4 sm:space-x-6">
           {navItems.map((item) => (
             <NavItem key={item.path} item={item} pathname={pathname} />
           ))}

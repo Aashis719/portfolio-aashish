@@ -1,5 +1,5 @@
 import { AnimatedSection } from "@/components/AnimatedSection";
-
+import { AnimatedTitle } from "@/components/AnimatedTitle";
 import { ProjectCard } from "@/components/ProjectCard";
 import { Section } from "@/components/Section";
 import { ServiceCard } from "@/components/ServiceCard";
@@ -17,12 +17,7 @@ export default function HomePage() {
           <div className="mx-auto max-w-6xl md:mt-4">
             <div className="flex flex-col items-center gap-12 lg:flex-row lg:gap-20">
               <div className="flex-1 space-y-8 text-center lg:text-left">
-                <h1 className="text-4xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-                  <span className="block">Hi, I&apos;m Aashis </span>
-                  <span className="block text-blue-600 dark:text-blue-400">
-                     Web Developer | Designer
-                  </span>
-                </h1>
+                <AnimatedTitle />
                 <p className="text-xl text-gray-600 dark:text-gray-400 sm:text-2xl">
                   I craft accessible, fast, and scalable digital experiences
                   using Next.js & Tailwind CSS
