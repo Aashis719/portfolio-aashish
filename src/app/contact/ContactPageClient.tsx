@@ -26,9 +26,9 @@ export default function ContactPageClient() {
     setIsSubmitting(true);
     setSubmissionStatus("idle");
 
-    const serviceID = "YOUR_SERVICE_ID"; // Replace with your EmailJS Service ID
-    const templateID = "YOUR_TEMPLATE_ID"; // Replace with your EmailJS Template ID
-    const publicKey = "YOUR_PUBLIC_KEY"; // Replace with your EmailJS Public Key
+    const serviceID = "service_wiiwzk1"; 
+    const templateID = "template_pc2y4x3";
+    const publicKey = "Zpyv556tuOPUfuzDe"; 
 
     emailjs
       .sendForm(serviceID, templateID, form.current, publicKey)
