@@ -18,9 +18,8 @@ export default function HomePage() {
             <div className="flex flex-col items-center gap-12 lg:flex-row lg:gap-20">
               <div className="flex-1 space-y-8 text-center lg:text-left">
                 <AnimatedTitle />
-                <p className="text-xl text-gray-600 dark:text-gray-400 sm:text-2xl">
-                  I craft accessible, fast, and scalable digital experiences
-                  using Next.js & Tailwind CSS
+                <p className="text-xl text-gray-600 dark:text-gray-400 sm:text-2xl px-3 md:px-0">
+                I craft accessible, fast, and scalable digital experiences that captivate audiences.
                 </p>
                 <div className="flex flex-col gap-4 mx-5 md:mx-0 sm:flex-row sm:justify-center lg:justify-start">
                   <Link
