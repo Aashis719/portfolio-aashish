@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
 };
 
-// This is the main server component for the contact page
+// This is the main server component for the contact page.
 export default function ContactPage() {
   return <ContactPageClient />;
 }

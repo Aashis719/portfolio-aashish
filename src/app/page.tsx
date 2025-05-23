@@ -89,8 +89,6 @@ export default function HomePage() {
           </div>
         </Section>
       </AnimatedSection>
-
-      {/* About Section */}
      
 
      

@@ -48,7 +48,7 @@ export default function AboutPage() {
                     I&apos;m passionate about creating accessible, performant, and
                     beautiful digital experiences that solve real problems. I
                     believe in the power of well-crafted software to make a
-                    positive impact on people&apos;s lives.
+                    positive impact on people&apos;s lives. 
                   </p>
                 </div>
               </div>

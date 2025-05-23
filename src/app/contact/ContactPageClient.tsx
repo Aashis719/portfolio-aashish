@@ -235,7 +235,7 @@ export default function ContactPageClient() {
             <div className="p-6 rounded-xl bg-gray-800/50 backdrop-blur-md border border-gray-700/60 shadow-lg mt-6">
               <h2 className="text-xl font-semibold  text-white mb-3">Stay Connected</h2>
               <p className=" text-gray-400 text-sm leading-relaxed">
-                I&apos;m active on these platforms and always open to networking. Don&apos;t hesitate to reach out or follow my work!
+                I&apos;m active on these platforms and always open to networking. Don&apos;t hesitate to reach out or follow my work !
               </p>
             </div>
           </motion.div>
