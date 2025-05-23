@@ -91,10 +91,10 @@ export default function ContactPageClient() {
         className="space-y-12"
       >
         <div className="text-center space-y-2 mb-6 md:space-y-4">
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white">
+          <h1 className="text-4xl sm:text-5xl font-extrabold  text-white">
             Let&apos;s Connect
           </h1>
-          <p className="text-xl sm:text-2xl font-medium text-blue-600 dark:text-blue-400">
+          <p className="text-xl sm:text-2xl font-medium text-blue-400">
             Have a project in mind, a question, or just want to say hi?
           </p>
         </div>
@@ -106,22 +106,22 @@ export default function ContactPageClient() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.2, duration: 0.5 }}
             onSubmit={handleSubmit}
-            className="space-y-6 bg-white dark:bg-gray-800/30 p-6 sm:p-8 rounded-xl shadow-xl border border-gray-200/20 dark:border-gray-700/50"
+            className="space-y-6  bg-gray-800/30 p-6 sm:p-8 rounded-xl shadow-xl border border-gray-700/50"
           >
             <div>
             {submissionStatus === "success" && (
-              <p className="mb-4 text-sm text-center text-green-600 dark:text-green-400 p-3 bg-green-50 dark:bg-green-900/30 rounded-md border border-green-300 dark:border-green-600">
+              <p className="mb-4 text-sm text-center text-green-400 p-3  bg-green-900/30 rounded-md border  border-green-600">
                 Message sent successfully! I&apos;ll get back to you soon.
               </p>
             )}
             {submissionStatus === "error" && (
-              <p className="mb-4 text-sm text-center text-red-600 dark:text-red-400 p-3 bg-red-50 dark:bg-red-900/30 rounded-md border border-red-300 dark:border-red-600">
+              <p className="mb-4 text-sm text-center text-red-400 p-3 bg-red-900/30 rounded-md border border-red-600">
                 Something went wrong. Please try again or email me directly.
               </p>
             )}
               <label
                 htmlFor="name"
-                className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1.5"
+                className="block text-sm font-medium text-gray-300 mb-1.5"
               >
                 Your Name
               </label>
@@ -132,7 +132,7 @@ export default function ContactPageClient() {
                 value={formData.name}
                 onChange={handleChange}
                 placeholder="Your full name"
-                className="w-full px-4 py-2.5 rounded-lg border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700/50 text-gray-900 dark:text-gray-100   focus:border-transparent transition placeholder-gray-400 dark:placeholder-gray-500"
+                className="w-full px-4 py-2.5 rounded-lg border  border-gray-600 bg-gray-700/50 text-gray-100   focus:border-transparent transition  placeholder-gray-500"
                 required
                 disabled={isSubmitting}
               />
@@ -141,7 +141,7 @@ export default function ContactPageClient() {
             <div>
               <label
                 htmlFor="email"
-                className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1.5"
+                className="block text-sm font-medium  text-gray-300 mb-1.5"
               >
                 Your Email
               </label>
@@ -152,7 +152,7 @@ export default function ContactPageClient() {
                 value={formData.email}
                 onChange={handleChange}
                 placeholder="Your email address"
-                className="w-full px-4 py-2.5 rounded-lg border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700/50 text-gray-900 dark:text-gray-100 f focus:border-transparent transition placeholder-gray-400 dark:placeholder-gray-500"
+                className="w-full px-4 py-2.5 rounded-lg border border-gray-600 bg-gray-700/50 text-gray-100 f focus:border-transparent transition placeholder-gray-500"
                 required
                 disabled={isSubmitting}
               />
@@ -161,7 +161,7 @@ export default function ContactPageClient() {
             <div>
               <label
                 htmlFor="message"
-                className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1.5"
+                className="block text-sm font-medium text-gray-300 mb-1.5"
               >
                 Message
               </label>
@@ -172,7 +172,7 @@ export default function ContactPageClient() {
                 onChange={handleChange}
                 rows={5}
                 placeholder="Your message here"
-                className="w-full px-4 py-2.5 rounded-lg border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700/50 text-gray-900 dark:text-gray-100  focus:border-transparent transition placeholder-gray-400 dark:placeholder-gray-500"
+                className="w-full px-4 py-2.5 rounded-lg border border-gray-600 bg-gray-700/50 text-gray-100  focus:border-transparent transition  placeholder-gray-500"
                 required
                 disabled={isSubmitting}
               />
@@ -180,10 +180,10 @@ export default function ContactPageClient() {
 
             <button
               type="submit"
-              className={`w-full py-3 px-4 text-white rounded-lg font-medium transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-offset-gray-800/30  ${
+              className={`w-full py-3 px-4 text-white rounded-lg font-medium transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2  focus:ring-offset-gray-800/30  ${
                 isSubmitting
-                  ? "bg-gray-400 dark:bg-gray-500 cursor-not-allowed"
-                  : "bg-gray-700 hover:bg-gray-600 dark:bg-gray-600 dark:hover:bg-gray-500"
+                  ? "bg-gray-500 cursor-not-allowed"
+                  : " bg-gray-600 hover:bg-gray-500"
               }`}
               disabled={isSubmitting}
             >
@@ -197,24 +197,24 @@ export default function ContactPageClient() {
             transition={{ delay: 0.3, duration: 0.5 }}
             className="space-y-6 py-7 mt-8 md:mt-0"
           >
-            <div className="p-6 rounded-xl bg-gray-50 dark:bg-gray-800/50 backdrop-blur-md border border-gray-200/20 dark:border-gray-700/60 shadow-lg">
+            <div className="p-6 rounded-xl bg-gray-800/50 backdrop-blur-md border border-gray-700/60 shadow-lg">
               <div className="flex items-center space-x-3 mb-3">
-                <HiMail className="w-6 h-6 text-blue-500 dark:text-blue-400" />
-                <h2 className="text-xl font-semibold text-gray-800 dark:text-white">Direct Email</h2>
+                <HiMail className="w-6 h-6 text-blue-400" />
+                <h2 className="text-xl font-semibold text-white">Direct Email</h2>
               </div>
-              <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+              <p className="text-gray-400 text-sm leading-relaxed">
                 For quick inquiries or direct contact, you can email me at:{" "}
                 <a
                   href="mailto:aashishnep10@gmail.com"
-                  className="font-medium text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition-colors"
+                  className="font-medium  text-blue-400 hover:text-blue-300 transition-colors"
                 >
                   aashishnep10@gmail.com
                 </a>
               </p>
             </div>
 
-            <div className="p-6 rounded-xl bg-gray-50 dark:bg-gray-800/50 backdrop-blur-md border border-gray-200/20 dark:border-gray-700/60 shadow-lg">
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-white mb-4">Connect Elsewhere</h2>
+            <div className="p-6 rounded-xl bg-gray-800/50 backdrop-blur-md border border-gray-700/60 shadow-lg">
+              <h2 className="text-xl font-semibold text-white mb-4">Connect Elsewhere</h2>
               <div className="flex space-x-4">
                 {socialLinks.map((link) => (
                   <a
@@ -223,7 +223,7 @@ export default function ContactPageClient() {
                     target="_blank"
                     rel="noopener noreferrer"
                     title={link.name}
-                    className="text-gray-500 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700/50"
+                    className=" text-gray-400 hover:text-blue-400 transition-colors p-2 rounded-full hover:bg-gray-700/50"
                   >
                     <span className="sr-only">{link.name}</span>
                     {link.icon}
@@ -232,9 +232,9 @@ export default function ContactPageClient() {
               </div>
             </div>
 
-            <div className="p-6 rounded-xl bg-gray-50 dark:bg-gray-800/50 backdrop-blur-md border border-gray-200/20 dark:border-gray-700/60 shadow-lg mt-6">
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-white mb-3">Stay Connected</h2>
-              <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+            <div className="p-6 rounded-xl bg-gray-800/50 backdrop-blur-md border border-gray-700/60 shadow-lg mt-6">
+              <h2 className="text-xl font-semibold  text-white mb-3">Stay Connected</h2>
+              <p className=" text-gray-400 text-sm leading-relaxed">
                 I&apos;m active on these platforms and always open to networking. Don&apos;t hesitate to reach out or follow my work!
               </p>
             </div>

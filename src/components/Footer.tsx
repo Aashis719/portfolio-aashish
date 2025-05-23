@@ -30,11 +30,11 @@ const socialLinks = [
 
 export function Footer() {
   return (
-    <footer className="mt-auto w-full border-t border-gray-200 py-8 dark:border-gray-800">
+    <footer className="mt-auto w-full border-t  py-8 border-gray-800">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center justify-between space-y-4 sm:flex-row sm:space-y-0">
           <div className="flex flex-col items-center sm:items-start">
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-400">
               &copy; {new Date().getFullYear()} Aashis. All rights reserved.
             </p>
             
@@ -47,7 +47,7 @@ export function Footer() {
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+                className=" transition-colors text-gray-400 hover:text-white"
                 aria-label={link.name}
               >
                 {link.icon}

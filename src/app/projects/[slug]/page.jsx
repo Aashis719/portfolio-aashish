@@ -54,14 +54,14 @@ export default async function ProjectPage({ params }) {
             <h1 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
               {project.title}
             </h1>
-            <p className="mx-auto mb-6 max-w-2xl text-xl text-gray-600 dark:text-gray-400">
+            <p className="mx-auto mb-6 max-w-2xl text-xl text-gray-400">
               {project.description}
             </p>
             <div className="mb-8 flex flex-wrap justify-center gap-2">
               {project.tags.map((tag) => (
                 <span
                   key={tag}
-                  className="rounded-full bg-gray-100 px-4 py-2 text-sm font-medium text-gray-700 dark:bg-gray-800 dark:text-gray-300"
+                  className="rounded-full px-4 py-2 text-sm font-medium bg-gray-800 text-gray-300"
                 >
                   {tag}
                 </span>
@@ -72,7 +72,7 @@ export default async function ProjectPage({ params }) {
                 href={project.demoUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center rounded-md bg-gray-900 px-6 py-3 text-white transition-colors hover:bg-gray-800 dark:bg-gray-800 dark:hover:bg-gray-700"
+                className="flex items-center rounded-md  px-6 py-3 text-white transition-colors  bg-gray-800 hover:bg-gray-700"
               >
                 <FiExternalLink className="mr-2 h-5 w-5" />
                 View Live Demo
@@ -81,7 +81,7 @@ export default async function ProjectPage({ params }) {
                 href={project.githubUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center rounded-md border border-gray-300 bg-white px-6 py-3 transition-colors hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
+                className="flex items-center rounded-md border  px-6 py-3 transition-colors  border-gray-700 bg-gray-800 text-white hover:bg-gray-700"
               >
                 <FiGithub className="mr-2 h-5 w-5" />
                 View Source Code
@@ -90,7 +90,7 @@ export default async function ProjectPage({ params }) {
           </div>
 
           {/* Project Details */}
-          <div className="prose prose-lg mx-auto max-w-none dark:prose-invert">
+          <div className="prose prose-lg mx-auto max-w-none prose-invert">
             <h2 className="font-bold text-blue-400 text-xl md:text-2xl ">Project Overview</h2>
             <p>{project.details.overview}</p>
 
@@ -112,7 +112,7 @@ export default async function ProjectPage({ params }) {
           <div className="mt-16 text-center">
             <Link
               href="/projects"
-              className="inline-flex items-center rounded-md border border-gray-300 bg-white px-6 py-3 text-base font-medium text-gray-700 shadow-sm transition-colors hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700"
+              className="inline-flex items-center rounded-md border   px-6 py-3 text-base font-medium  shadow-sm transition-colors  border-gray-700 bg-gray-800 text-gray-200 hover:bg-gray-700"
             >
               ← Back to All Projects
             </Link>

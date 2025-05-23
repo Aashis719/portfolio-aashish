@@ -31,7 +31,7 @@ export default function AboutPage() {
                 <h3 className="text-2xl font-bold">
                   Web Developer | Designer
                 </h3>
-                <div className="space-y-4 text-lg text-gray-600 dark:text-gray-400">
+                <div className="space-y-4 text-lg  text-gray-400">
                   <p>
                     I&apos;m Aashis, a full-stack web developer with over 2 years of
                     experience building modern web applications. I specialize in
