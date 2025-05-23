@@ -71,7 +71,7 @@ export default function HomePage() {
         <Section
           id="projects"
           title="Featured Projects"
-          subtitle="Recent work that showcases my skills and expertise"
+          subtitle="Recent work that showcases my skills and expertise."
           className="bg-gray-900"
         >
           <div className="mx-auto mt-16 grid max-w-6xl gap-8 sm:grid-cols-2 lg:grid-cols-3">
