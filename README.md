@@ -14,10 +14,10 @@ A modern, responsive portfolio website built with Next.js, React, and TailwindCS
 
 ## 🛠️ Built With
 
-- **Framework**: [Next.js 15](https://nextjs.org/)
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **Styling**: [TailwindCSS](https://tailwindcss.com/)
-- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Framework**: Next.js 15
+- **Language**: TypeScript
+- **Styling**: TailwindCSS
+- **Animations**: Framer Motion
 
 
 ## 📝 Project Structure
