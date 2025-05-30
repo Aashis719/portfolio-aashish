@@ -4,6 +4,7 @@ import { FiGithub, FiExternalLink } from "react-icons/fi";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+{/* this is the project page where the project details are shown */}
 
 export async function generateMetadata({ params }) {
   const project = await getProjectBySlug(params.slug);
