@@ -89,9 +89,11 @@ export default function HomePage() {
           </div>
         </Section>
       </AnimatedSection>
-     
 
-     
+      {/* Testimonials Section */}
+      
+
+            
     </>
   );
 }
