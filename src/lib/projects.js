@@ -1,6 +1,6 @@
 export const projects = [
   {
-    id: "1",
+    id: "2",
     title: "Laitora Store (Loading...)",
     description:
       "A modern e-commerce platform built with Next.js, Tailwind CSS, and Supabase for database and authentication ",
@@ -28,7 +28,7 @@ export const projects = [
     }
   },
   {
-    id: "2",
+    id: "1",
     title: "Locus Tours and Travels",
     description:
       "A website for a travel agency that allows users to enquiry about the tours and travel packages.",
