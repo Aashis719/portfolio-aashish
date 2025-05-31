@@ -12,7 +12,7 @@ export default function NotFound() {
           Page Not Found !
         </h2>
         <p className="mb-8 max-w-md text-lg text-gray-600 dark:text-gray-400">
-          The page you are looking for doesnot exist or has been moved.
+          The page you are looking for doesnot exist or has been moved .
         </p>
         <Link
           href="/"
