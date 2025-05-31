@@ -23,7 +23,7 @@ export const projects = [
         "Next.js ",
         "Tailwind CSS ",
         "Supabase for authentication and database",
-        "Responsive design for all device sizes"
+        "Responsive design for all device sizes "
       ]
     }
   },
