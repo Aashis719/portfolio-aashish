@@ -26,7 +26,7 @@ A modern, responsive portfolio website built with Next.js, React, and TailwindCS
   - `components/` - Reusable React components
   - `app/` - Next.js and API routes
   - `styles/` - Global styles and Tailwind configurations
-  - `utils/` - Utility functions and helpers
+  - `lib/` - core libraries and service
 
 
 ## 📬 Contact
