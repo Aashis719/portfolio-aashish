@@ -10,28 +10,28 @@ export const services: Service[] = [
     id: "1",
     title: "Web Development",
     description:
-      "Modern, responsive websites and web applications built with Next.js, React, and other cutting-edge technologies.",
+      "Building fast, responsive, and modern web applications with Next.js and React. Focus on clean code and best practices.",
     icon: "WebDev",
   },
   {
     id: "2",
     title: "UI/UX Design",
     description:
-      "User-centered design with a focus on usability, accessibility, and visual appeal using Figma and modern design systems.",
+      "Creating intuitive and beautiful user interfaces. Emphasis on accessibility and user-centered design principles.",
     icon: "Design",
   },
   {
     id: "3",
-    title: "Performance Optimization",
+    title: "Performance",
     description:
-      "Improve your website's Core Web Vitals, SEO, and overall performance for better user experience and search rankings.",
+      "Optimizing web vitals, loading speeds, and SEO. Ensuring your website performs at its absolute best.",
     icon: "Performance",
   },
   {
     id: "4",
-    title: "Custom CMS & Dashboards",
+    title: "Custom Solutions",
     description:
-      "Tailored content management systems and admin dashboards that make it easy to manage your website content.",
+      "Building tailored dashboards and content management systems that simplify your workflow and save time.",
     icon: "Dashboard",
   },
 ]; 

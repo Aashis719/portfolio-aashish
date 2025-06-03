@@ -19,7 +19,7 @@ export default function AboutPage() {
               <div className="lg:col-span-2">
                 <div className="relative aspect-square w-full overflow-hidden rounded-xl">
                   <Image
-                    src="/images/haam.png"
+                    src="/images/haam.jpeg"
                     alt="Aashis"
                     fill
                     className="object-cover"

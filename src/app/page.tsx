@@ -3,8 +3,10 @@ import { AnimatedTitle } from "@/components/AnimatedTitle";
 import { ProjectCard } from "@/components/ProjectCard";
 import { Section } from "@/components/Section";
 import { ServiceCard } from "@/components/ServiceCard";
+import { TechStackCard } from "@/components/TechStackCard";
 import { projects } from "@/lib/projects";
 import { services } from "@/lib/services";
+import { techStack } from "@/lib/techStack";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -56,11 +58,33 @@ export default function HomePage() {
           id="services"
           title="What I Offer"
           subtitle="Specialized services to help your business succeed online"
-          
         >
           <div className="mx-auto mt-16 grid md:max-w-6xl gap-10 sm:grid-cols-2 lg:grid-cols-4">
             {services.map((service) => (
               <ServiceCard key={service.id} service={service} />
+            ))}
+          </div>
+        </Section>
+      </AnimatedSection>
+
+      {/* Tech Stack Section */}
+      <AnimatedSection delay={0.25}>
+        <Section
+          id="tech-stack"
+          title="My Tech Stack"
+          subtitle=" Some of my go-to technologies."
+          
+          className="bg-gray-900 "
+        >
+          <div className="mx-auto mt-16 grid max-w-6xl gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {techStack.map((tech) => (
+              <TechStackCard
+                key={tech.id}
+                name={tech.name}
+                description={tech.description}
+                icon={tech.icon}
+                hoverColor={tech.hoverColor}
+              />
             ))}
           </div>
         </Section>

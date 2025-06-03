@@ -1,33 +1,5 @@
 export const projects = [
   {
-    id: "2",
-    title: "Laitora Store (Loading...)",
-    description:
-      "A modern e-commerce platform built with Next.js, Tailwind CSS, and Supabase for database and authentication ",
-    imageUrl: "/images/laitorastore.png",
-    tags: ["Next.js", "Tailwind CSS", "Supabase"],
-    demoUrl: "https://laitora-store.vercel.app/",
-    githubUrl: "https://github.com/Aashis719/Laitora-Store",
-    slug: "laitora-online-store",
-    details: {
-      overview: `Laitora Store is a comprehensive e-commerce solution designed to provide a seamless shopping experience. Built with modern technologies, it offers a responsive interface, secure authentication, and efficient product management.`,
-      challenge: `The main challenges included:
-        • Implementing a secure and scalable authentication system
-        • Optimizing performance with server-side rendering
-        • Ensuring seamless integration with the Supabase backend`,
-      solution: `The solution leverages Next.js and Tailwind CSS to create a fast, modern e-commerce platform:
-        • Implemented user authentication using Supabase
-        • Utilized Next.js server-side rendering for optimal performance
-        • Integrated real-time inventory management`,
-      technicalDetails: [
-        "Next.js ",
-        "Tailwind CSS ",
-        "Supabase for authentication and database",
-        "Responsive design for all device sizes "
-      ]
-    }
-  },
-  {
     id: "1",
     title: "Locus Tours and Travels",
     description:
@@ -55,6 +27,35 @@ export const projects = [
       ]
     }
   },
+  {
+    id: "2",
+    title: "Laitora Store (Loading...)",
+    description:
+      "A modern e-commerce platform built with Next.js, Tailwind CSS, and Supabase for database and authentication ",
+    imageUrl: "/images/laitorastore.png",
+    tags: ["Next.js", "Tailwind CSS", "Supabase"],
+    demoUrl: "https://laitora-store.vercel.app/",
+    githubUrl: "https://github.com/Aashis719/Laitora-Store",
+    slug: "laitora-online-store",
+    details: {
+      overview: `Laitora Store is a comprehensive e-commerce solution designed to provide a seamless shopping experience. Built with modern technologies, it offers a responsive interface, secure authentication, and efficient product management.`,
+      challenge: `The main challenges included:
+        • Implementing a secure and scalable authentication system
+        • Optimizing performance with server-side rendering
+        • Ensuring seamless integration with the Supabase backend`,
+      solution: `The solution leverages Next.js and Tailwind CSS to create a fast, modern e-commerce platform:
+        • Implemented user authentication using Supabase
+        • Utilized Next.js server-side rendering for optimal performance
+        • Integrated real-time inventory management`,
+      technicalDetails: [
+        "Next.js ",
+        "Tailwind CSS ",
+        "Supabase for authentication and database",
+        "Responsive design for all device sizes "
+      ]
+    }
+  },
+ 
   {
     id: "3",
     title: "FlowSync: SaaS Product",
