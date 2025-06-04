@@ -61,7 +61,7 @@ export const projects = [
     title: "FlowSync: SaaS Product",
     description:
       "FlowSync Dummy Landing Page for a AI-powered automation platform built with Next.js and Tailwind CSS.",
-    imageUrl: "/images/flowsyncss.png",
+    imageUrl: "/images/flow-sync.png",
     tags: ["Next.js", "Tailwind CSS","Email js"],
     demoUrl: "https://flowsync-ashen.vercel.app/",
     githubUrl: "https://github.com/Aashis719/flow-sync",
