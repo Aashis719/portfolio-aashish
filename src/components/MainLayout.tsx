@@ -9,7 +9,7 @@ import { usePathname } from "next/navigation";
 export function MainLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   
-  
+  // Scroll to top when route changes
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
