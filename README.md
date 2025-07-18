@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with Next.js, React, and TailwindCS
 
 ## 🚀 Features
 
-- **Modern Design**: Clean and professional user interface
+- **Modern Design**: Clean and professional user interface 
 - **Responsive Layout**: Optimized for all device sizes
 - **Smooth Animations**: Powered by Framer Motion
 - **Fast Performance**: Built with Next.js 15 for optimal loading speeds
