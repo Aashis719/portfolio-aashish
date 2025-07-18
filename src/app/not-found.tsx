@@ -5,7 +5,7 @@ export default function NotFound() {
   return (
     <AnimatedSection>
       <div className="flex min-h-[70vh] flex-col items-center justify-center px-4 text-center">
-        <h1 className="mb-4 text-6xl font-bold text-gray-900 dark:text-white">
+        <h1 className="mb-4 text-6xl  font-bold text-gray-900 dark:text-white">
           404
         </h1>
         <h2 className="mb-8 text-3xl font-bold text-gray-700 dark:text-gray-300">
