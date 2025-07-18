@@ -4,7 +4,7 @@ import { Service } from "@/lib/services";
 import { motion } from "framer-motion";
 import { FiCode, FiLayout, FiZap, FiDatabase } from "react-icons/fi";
 
-const iconMap = {
+const iconMap = { 
   WebDev: FiCode,
   Design: FiLayout,
   Performance: FiZap,
