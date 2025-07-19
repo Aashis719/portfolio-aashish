@@ -8,7 +8,7 @@ import { FaXTwitter } from "react-icons/fa6";
 const socialLinks = [
   {
     name: "GitHub",
-    url: "https://github.com/Aashis719",
+    url: "https://github.com/Aashis719", 
     icon: <FaGithub className="h-5 w-5" />,
   },
   {
