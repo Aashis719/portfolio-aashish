@@ -14,7 +14,7 @@ export interface Project {
   githubUrl: string;
   slug: string;
 }
-
+ 
 export function ProjectCard({ project }: { project: Project }) {
   return (
     <motion.div
