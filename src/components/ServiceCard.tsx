@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { FiCode, FiLayout, FiZap, FiDatabase } from "react-icons/fi";
 
 const iconMap = { 
-  WebDev: FiCode,
+  WebDev: FiCode, 
   Design: FiLayout,
   Performance: FiZap,
   Dashboard: FiDatabase,
