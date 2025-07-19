@@ -7,7 +7,7 @@ interface AnimatedSectionProps {
   children: ReactNode;
   className?: string;
   delay?: number;
-}
+} 
 
 export function AnimatedSection({
   children,
