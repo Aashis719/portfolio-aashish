@@ -13,7 +13,7 @@ const socialLinks = [
   },
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/aashis-neupane-1a8050327/",
+    url: "https://www.linkedin.com/in/aashish-neupane-1a8050327/",
     icon: <FaLinkedin className="h-5 w-5" />,
   },
   {

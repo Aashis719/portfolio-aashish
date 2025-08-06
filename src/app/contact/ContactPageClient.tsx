@@ -67,7 +67,7 @@ export default function ContactPageClient() {
     },
     {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/aashis-neupane-1a8050327/",
+      url: "https://www.linkedin.com/in/aashish-neupane-1a8050327/",
       icon: <FaLinkedin className="w-6 h-6" />,
     },
     {
