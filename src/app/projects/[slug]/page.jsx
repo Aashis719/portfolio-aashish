@@ -73,7 +73,7 @@ export default async function ProjectPage({ params }) {
                 href={project.demoUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center rounded-md  px-6 py-3 text-white transition-colors  bg-gray-800 hover:bg-gray-700"
+                className="flex items-center rounded-md  px-8 py-3 text-white transition-colors  bg-gray-800 hover:bg-gray-700"
               >
                 <FiExternalLink className="mr-2 h-5 w-5" />
                 View Live Demo
@@ -91,23 +91,40 @@ export default async function ProjectPage({ params }) {
           </div>
 
           {/* Project Details */}
-          <div className="prose prose-lg mx-auto max-w-none prose-invert">
-            <h2 className="font-bold text-blue-400 text-xl md:text-2xl ">Project Overview</h2>
-            <p>{project.details.overview}</p>
+                      <div className="prose prose-lg mx-auto max-w-none prose-invert">
+              <div className="space-y-16">
+                <div className="relative pl-6 md:pl-8">
+                  <div className="absolute left-0 top-0 h-full w-[2px] bg-gradient-to-b from-blue-400/30 to-transparent"></div>
+                  <h2 className="font-bold text-blue-400 text-2xl md:text-3xl mb-4">Project Overview</h2>
+                  <p className="text-gray-300/90 leading-relaxed">{project.details.overview}</p>
+                </div>
 
-            <h2 className="font-bold text-blue-400 mt-4 text-xl md:text-2xl">The Challenge</h2>
-            <div className="whitespace-pre-line">{project.details.challenge}</div>
+                <div className="relative pl-6 md:pl-8">
+                  <div className="absolute left-0 top-0 h-full w-[2px] bg-gradient-to-b from-blue-400/30 to-transparent"></div>
+                  <h2 className="font-bold text-blue-400 text-2xl md:text-3xl mb-4">The Challenge</h2>
+                  <div className="text-gray-300/90 leading-relaxed whitespace-pre-line">{project.details.challenge}</div>
+                </div>
 
-            <h2 className="font-bold text-blue-400 mt-4 text-xl md:text-2xl">The Solution</h2>
-            <div className="whitespace-pre-line">{project.details.solution}</div>
+                <div className="relative pl-6 md:pl-8">
+                  <div className="absolute left-0 top-0 h-full w-[2px] bg-gradient-to-b from-blue-400/30 to-transparent"></div>
+                  <h2 className="font-bold text-blue-400 text-2xl md:text-3xl mb-4">The Solution</h2>
+                  <div className="text-gray-300/90 leading-relaxed whitespace-pre-line">{project.details.solution}</div>
+                </div>
 
-            <h2 className="font-bold text-blue-400 mt-4 text-xl md:text-2xl">Technical Details</h2>
-            <ul>
-              {project.details.technicalDetails.map((detail) => (
-                <li key={detail}>{detail}</li>
-              ))}
-            </ul>
-          </div>
+                <div className="relative pl-6 md:pl-8">
+                  <div className="absolute left-0 top-0 h-full w-[2px] bg-gradient-to-b from-blue-400/30 to-transparent"></div>
+                  <h2 className="font-bold text-blue-400 text-2xl md:text-3xl mb-4">Technical Details</h2>
+                  <ul className="space-y-3 list-none">
+                    {project.details.technicalDetails.map((detail) => (
+                      <li key={detail} className="text-gray-300/90 relative flex items-center">
+                        <span className="absolute -left-6 top-1/2 w-3 h-[1px] bg-blue-400/30"></span>
+                        {detail}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </div>
 
           {/* Back to Projects */}
           <div className="mt-16 text-center">

@@ -15,6 +15,7 @@ export default function ProjectsPage() {
       <Section
         title="My Projects"
         subtitle="A collection of my recent work and experiments"
+        className="mt-12 md:mt-0"
       >
         <div className="mx-auto mt-16 grid max-w-6xl gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (

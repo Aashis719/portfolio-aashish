@@ -41,19 +41,32 @@ export const techStack = [
     icon: "/icons/postgresql-icon.svg",
     hoverColor: "hover:bg-[#336791]"
   },
-//   {
-//     id: 7,
-//     name: "Framer Motion",
-//     description: "Animation library",
-//     icon: "/icons/framer.svg",
-//     hoverColor: "hover:bg-[#ffffff]"
-//   }
-//   ,
   {
     id: 7,
-    name: "Figma",
-    description: "Design tool",
-    icon: "/icons/figma-icon.svg",
-    hoverColor: "hover:bg-[#3ecf8e]"  
+    name: "Framer Motion",
+    description: "Animation library",
+    icon: "/icons/framer.svg",
+    hoverColor: "hover:bg-[#ffffff]"
+  },
+  // {
+  //   id: 8,
+  //   name: "Figma",
+  //   description: "Design tool",
+  //   icon: "/icons/figma-icon.svg",
+  //   hoverColor: "hover:bg-[#3ecf8e]"  
+  // },
+  {
+    id: 8,
+    name: "Git",
+    description: "Version control system",
+    icon: "/icons/git.svg",
+    hoverColor: "hover:bg-[#f05032]"  
+  },
+  {
+    id: 9,
+    name: "GitHub",
+    description: "Code hosting platform",
+    icon: "/icons/github.svg",
+    hoverColor: "hover:bg-[#ffffff]"  
   }
 ]; 

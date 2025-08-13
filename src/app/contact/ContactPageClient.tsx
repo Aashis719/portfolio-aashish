@@ -93,7 +93,9 @@ export default function ContactPageClient() {
         <div className="text-center space-y-2 mb-6 md:space-y-4">
           <h1 className="text-4xl sm:text-5xl font-extrabold  text-white">
             Let&apos;s Connect
+            
           </h1>
+          
           <p className="text-xl sm:text-2xl font-medium text-blue-400">
             Have a project in mind, a question, or just want to say hi?
           </p>
@@ -205,7 +207,7 @@ export default function ContactPageClient() {
               <p className="text-gray-400 text-sm leading-relaxed">
                 For quick inquiries or direct contact, you can email me at:{" "}
                 <a
-                  href="mailto:aashishnep10@gmail.com"
+                  href="https://mail.google.com/mail/?view=cm&to=aashishnep10@gmail.com" target="_blank"
                   className="font-medium  text-blue-400 hover:text-blue-300 transition-colors"
                 >
                   aashishnep10@gmail.com

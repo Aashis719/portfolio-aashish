@@ -13,7 +13,7 @@ export default function AboutPage() {
   return (
     <>
       <AnimatedSection>
-        <Section title="About Me" subtitle="My journey and expertise">
+        <Section title="About Me" subtitle="My journey and expertise"  className="mt-12 md:mt-0">
           <div className="mx-auto mt-16 pb-10 max-w-6xl">
             <div className="grid gap-12 lg:grid-cols-5">
               <div className="lg:col-span-2">

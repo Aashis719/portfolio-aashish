@@ -20,8 +20,8 @@ export default function HomePage() {
             <div className="flex flex-col items-center gap-12 lg:flex-row lg:gap-20">
               <div className="flex-1 space-y-8 text-center lg:text-left">
                 <AnimatedTitle />
-                <p className="text-xl  text-gray-400 sm:text-2xl px-3 md:px-0">
-                I craft accessible, fast, and scalable digital experiences that captivate audiences.
+                <p className="text-xl  text-gray-400 sm:text-2xl px-5 md:px-0 md:pr-3 ">
+               I design and build engaging, high-performing websites tailored to your vision.
                 </p>
                 <div className="flex flex-col gap-4 mx-5 md:mx-0 sm:flex-row sm:justify-center lg:justify-start">
                   <Link
@@ -38,12 +38,12 @@ export default function HomePage() {
                   </Link>
                 </div>
               </div>
-              <div className="relative h-64 w-64 flex-shrink-0 overflow-hidden rounded-full border-8  shadow-xl border-gray-800 sm:h-96 sm:w-96">
+              <div className="relative h-64 w-64 flex-shrink-0 overflow-hidden rounded-full border-8 group  shadow-xl border-gray-800 sm:h-96 sm:w-96">
                 <Image
                   src="/images/ham.png"
                   alt="Aashis"
                   fill
-                  className="object-cover"
+                  className="object-cover transition-all duration-300 group-hover:scale-105"
                   priority
                 />
               </div>
@@ -76,7 +76,7 @@ export default function HomePage() {
           
           className="bg-gray-900 "
         >
-          <div className="mx-auto mt-16 grid max-w-6xl gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mx-auto mt-12 grid max-w-5xl gap-3 grid-cols-3 sm:gap-4 md:gap-5">
             {techStack.map((tech) => (
               <TechStackCard
                 key={tech.id}

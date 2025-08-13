@@ -5,7 +5,7 @@ export const projects = [
     description:
       "A website for a travel agency that allows users to enquiry about the tours and travel packages.",
     imageUrl: "/images/locustours.png",
-    tags: ["Next.js", "Tailwind CSS", ],
+    tags: ["Next.js", "Tailwind CSS", "Typescript" ],
     demoUrl: "https://locustraveltours.com/",
     githubUrl: "https://github.com/Aashis719/locus-tours---travel",
     slug: "locus-tours",
@@ -27,8 +27,39 @@ export const projects = [
       ]
     }
   },
+
   {
     id: "2",
+    title: "Himalayan Living",
+    description:
+      "A premium lifestyle brand website showcasing serene Himalayan aesthetics, handcrafted luxury, and a clean, minimal UI.",
+    imageUrl: "/images/himalayan.png",
+    tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
+    demoUrl: "https://himayalan-living-web.vercel.app/",
+    githubUrl: "https://github.com/Aashis719/himayalan-web",
+    slug: "himalayan-living",
+    details: {
+      overview: `Himalayan Living is a modern, responsive lifestyle brand website built with Next.js and Tailwind CSS. It celebrates the serene beauty of the Himalayas and the craftsmanship of Nepal through a minimal, accessible, and refined design.`,
+      challenge: `Project challenges included:
+        • Translating brand values of calmness, tradition, and handcrafted luxury into a modern web experience
+        • Implementing smooth transitions and subtle animations without sacrificing performance
+        • Creating a visually engaging, mobile-first design with accessibility in mind`,
+      solution: `Final solution highlights:
+        • Hero section with clear brand message and prominent call-to-action
+        • Product showcase for Home, Wear, and Wellness collections
+        • Brand story page with timeline and parallax effects
+        • Lookbook gallery with lightbox and animated transitions`,
+      technicalDetails: [
+        "Next.js for fast, SEO-friendly pages",
+        "Framer Motion for smooth transitions and animations",
+        "Optimized images and performance enhancements",
+        "Deployed on Vercel"
+      ]
+    }
+  }
+,  
+  {
+    id: "3",
     title: "Laitora Store (Loading...)",
     description:
       "A modern e-commerce platform built with Next.js, Tailwind CSS, and Supabase for database and authentication ",
@@ -57,7 +88,7 @@ export const projects = [
   },
  
   {
-    id: "3",
+    id: "4",
     title: "FlowSync: SaaS Product",
     description:
       "FlowSync Dummy Landing Page for a AI-powered automation platform built with Next.js and Tailwind CSS.",
@@ -82,7 +113,7 @@ export const projects = [
     }
   },
   {
-    id: "4",
+    id: "5",
     title: "OG Restaurant",
     description:
       "A landing page for OG Restaurant, featuring a curated menu showcase and a functional table reservation form.",
